@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.oath.mobile.phoenix.demo.fawkes",
+    "sha256_cert_fingerprints":
+    ["2B:13:AD:18:8F:33:20:79:1D:90:B9:F8:6C:8B:BD:E5:EE:4E:A7:FC:7C:1E:2C:C4:99:B4:B7:19:B0:44:4D:7E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://github.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.oath.mobile.phoenix.demo.fawkes",
+    "sha256_cert_fingerprints":
+    ["2B:13:AD:18:8F:33:20:79:1D:90:B9:F8:6C:8B:BD:E5:EE:4E:A7:FC:7C:1E:2C:C4:99:B4:B7:19:B0:44:4D:7E"]
+  }
+}]
